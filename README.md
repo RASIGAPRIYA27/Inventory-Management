@@ -1,108 +1,134 @@
-Inventory Management System
-📖 Overview
-The Inventory Management System is a comprehensive solution for tracking and managing product stock, expenses, and user operations. This project includes CRUD functionality for products and features an intuitive dashboard to streamline inventory management processes. It is designed to enhance productivity and ensure efficient inventory control.
 
-✨ Key Features
-Dashboard
+# Inventory Management System
 
-Overview of key metrics: total products, stock levels, and expenses
+## 📖 Overview
 
-Visual representation of data through charts and graphs
+The **Inventory Management System** is a comprehensive solution for tracking and managing product stock, expenses, and user operations. This project includes CRUD functionality for products and features an intuitive dashboard to streamline inventory management processes. It is designed to enhance productivity and ensure efficient inventory control.
 
-Product Management (CRUD)
+---
 
-Add, edit, delete, and view product details
+## ✨ Key Features
 
-Real-time stock level tracking
+- **Dashboard**
+  - Overview of key metrics: total products, stock levels, and expenses
+  - Visual representation of data through charts and graphs
 
-Categorize products for easy organization
+- **Product Management (CRUD)**
+  - Add, edit, delete, and view product details
+  - Real-time stock level tracking
+  - Categorize products for easy organization
 
-Expenses Tracking
+- **Expenses Tracking**
+  - Record and monitor business expenses
+  - Generate detailed expense reports
 
-Record and monitor business expenses
+- **Inventory Management**
+  - View all inventory items with their stock levels
+  - Update stock quantities as needed
+  - Prevent overstocking or stock shortages
 
-Generate detailed expense reports
+- **User Management**
+  - Manage user roles (e.g., Admin, Staff)
+  - Secure login system to ensure data integrity
 
-Inventory Management
+---
 
-View all inventory items with their stock levels
+## 🛠️ Technologies Used
 
-Update stock quantities as needed
+| Component    | Technology           |
+|--------------|---------------------|
+| **Frontend** | React.ts            |
+| **Backend**  | Node.js + Express.js|
+| **Database** | MongoDB             |
+| **Styling**  | Tailwind CSS        |
 
-Prevent overstocking or stock shortages
+---
 
-User Management
+## 📂 Database Schema
 
-Manage user roles (e.g., Admin, Staff)
+| Table Name     | Description                                         |
+|----------------|-----------------------------------------------------|
+| `Users`        | Stores user information (id, name, role, password)  |
+| `Products`     | Tracks product details (id, name, category, stock)  |
+| `Expenses`     | Records business expenses (id, amount, description) |
+| `Transactions` | Logs sales and purchases with timestamps            |
 
-Secure login system to ensure data integrity
+---
 
-🛠️ Technologies Used
-Component	Technology
-Frontend	React.ts
-Backend	Node.js + Express.js
-Database	MongoDB
-Styling	Tailwind CSS
-📂 Database Schema
-Table Name	Description
-Users	Stores user information (id, name, role, password)
-Products	Tracks product details (id, name, category, stock)
-Expenses	Records business expenses (id, amount, description)
-Transactions	Logs sales and purchases with timestamps
-▶️ Demo Video
-Watch Demo Video
+## ▶️ Demo Video
 
-🚀 Installation & Setup
-1. Clone the Repository
-bash
+[Watch Demo Video](https://drive.google.com/file/d/1aTWS0RMvFS3D3aeDII4ssVwQWce18a8n/view?usp=drivesdk)
+
+---
+
+## 🚀 Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/yourusername/inventory-management-system.git
 cd inventory-management-system
-2. Install Dependencies
-Backend:
+```
 
-bash
+### 2. Install Dependencies
+
+**Backend:**
+```bash
 cd backend
 npm install
-Frontend:
+```
 
-bash
+**Frontend:**
+```bash
 cd ../frontend
 npm install
-3. Configure Environment Variables
-Create a .env file in both backend and frontend directories.
+```
 
-Set up variables such as database URI and API endpoints as needed.
+### 3. Configure Environment Variables
 
-4. Run the Application
-Start Backend:
+- Create a `.env` file in both `backend` and `frontend` directories.
+- Set up variables such as database URI and API endpoints as needed.
 
-bash
+### 4. Run the Application
+
+**Start Backend:**
+```bash
 cd backend
 npm run dev
-Start Frontend:
+```
 
-bash
+**Start Frontend:**
+```bash
 cd ../frontend
 npm start
-5. Access the Application
-Open your browser and navigate to: http://localhost:3000
+```
 
-🚀 Deployment
-You can easily deploy this project to platforms like Vercel, Netlify, or any cloud provider of your choice.
+### 5. Access the Application
 
-Deploy to Vercel
-Sign up or log in at Vercel.
+Open your browser and navigate to: [http://localhost:3000](http://localhost:3000)
 
-Click "New Project" and import your GitHub repository.
+---
 
-Follow the prompts to configure your frontend (React) and backend (Node.js/Express) directories.
+## 🚀 Deployment
 
-Set required environment variables (e.g., MONGODB_URI, JWT_SECRET) in the Vercel dashboard.
+You can easily deploy this project to platforms like **Vercel**, **Netlify**, or any cloud provider of your choice.
 
-Click "Deploy".
+### Deploy to Vercel
 
-After deployment, Vercel will provide a live URL for your application.
+1. Sign up or log in at [Vercel](https://vercel.com/).
+2. Click **"New Project"** and import your GitHub repository.
+3. Follow the prompts to configure your frontend (React) and backend (Node.js/Express) directories.
+4. Set required environment variables (e.g., `MONGODB_URI`, `JWT_SECRET`) in the Vercel dashboard.
+5. Click **"Deploy"**.
+6. After deployment, Vercel will provide a live URL for your application.
 
-Feel free to contribute, open issues, or suggest features!
+---
 
-Happy Inventory Managing! 🚀
+> **Feel free to contribute, open issues, or suggest features!**
+
+---
+
+**Happy Inventory Managing!** 🚀
+
+---
+
